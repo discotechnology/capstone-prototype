@@ -7,7 +7,6 @@ This directory contains the initial code-based prototype for Section 4 of the Fl
 - `diagram/flying-nimbus-architecture.svg` is the graphical architecture representation.
 - `terraform/` contains the Proxmox VM provisioning configuration.
 - `ansible/` contains post-deployment configuration for the Kubernetes control plane, worker, and validation client.
-- `section-4-draft.md` contains the revised proposal text.
 
 The physical environment is not yet deployed. The code and diagram are the initial prototype artifacts and must be adapted to the actual Proxmox node names, datastores, network, credentials, and available hardware before deployment.
 
